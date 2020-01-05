@@ -45,7 +45,7 @@ collect_quantity|int|收藏数|
 like_quantity|int|点赞数|
 follow_quantity|int|关注数|
 
-- 话题评论关系表
+- 话题评论关系表-topic_comment
 
 字段名|类型|含义|其他
 -|:-:|-:|-:|
@@ -53,7 +53,7 @@ id|int|编号|主键
 topic_id|int|话题编号|
 comment_id|int|评论编号|
 
-- 用户评论关系表
+- 用户评论关系表-user_comment
 
 字段名|类型|含义|其他
 -|:-:|-:|-:|
